@@ -10,5 +10,6 @@ This repository conatain a simple Java applicationto used to demonstrate the CI 
 ## Contact me via:
 1. [GitHub](https://github.com/mavisphung?tab=repositories)
 2. [Facebook](https://www.facebook.com/mavisphung43)
+3. [Email](huypc2410@gmail.com)
 
-#### © 2020 by mavis
+#### © 2020 by mavis | FPT University, HCMC Campus
