@@ -17,10 +17,11 @@ public class MathUtil {
     public static long computeFactorial(int n) {
         //nếu người dùng đưa cà chớn, ta sẽ ném ra ngoại lệ
         if (n < 0 || n > 15) throw new IllegalArgumentException("Invalid argument: n must be >= 0 and <= 15");
-        long result = 1;
-        for (int i = 1; i <= n; i++) {
-            result *= i;
+        if (n == 0 || n == 1) {
+            return 1;
         }
-        return result;
+        
+        //đứa nào xài else chỗ này, trừ điểm
+        return n * computeFactorial(n - 1); // đệ quy nè, minh họa cho n! = n*(n-1)
     }
 }
